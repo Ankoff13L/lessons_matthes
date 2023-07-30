@@ -2,22 +2,16 @@
 # for magician in magicians:
 #     print(magician)
 
+    
+
+# pizzas = ['pepрerone', 'tutti', 'chif']
+# for pizza in pizzas:
+#     print(f"I like {pizza} pizza")
 
 
-# magicians = ['alice', 'david', 'carolina']
-# for magician in magicians:
-#     print(f"{magician.title()}, that was a great trick!")
-#     print(f"I can't wait to see your next trick, {magician.title()}.\n")
+animals = ['dog', 'cat', 'mouse']
+for animal in animals:
+    print(f"A {animal} would make a great pet")
 
+print('\nAny of these animals would make a great pet!')
 
-# magicians = ['alice', 'david', 'carolina']
-# for magician in magicians:
-#     print(f"{magician.title()}, that was a great trick!")
-#     print(f"I can't wait to see your next trick, {magician.title()}.\n")
-
-# print("Thank you, everyone. That was a great magic show!")
-
-
-magicians = ['alice', 'david', 'carolina']
-for magician in magicians:
-    print(magician)
