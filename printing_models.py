@@ -39,8 +39,8 @@ def show_completed_models(compled_models):
 unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
 compled_models = []
 
-# print_models(unprinted_designs, compled_models)
-# show_completed_models(compled_models)
+print_models(unprinted_designs, compled_models)
+show_completed_models(compled_models)
 
 
 
