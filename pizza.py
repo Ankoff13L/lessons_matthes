@@ -1,43 +1,4 @@
-
-
-# pizza = {
-#     'crust' : 'thick',
-#     'toppings' : ['mushrooms', 'extra cheese'],
-# }
-
-# print(f"You order a {pizza['crust']} - crust pizza "
-#     "with the followinng topings:")
-<<<<<<< HEAD
-
-# for topping in pizza['toppings']:
-#     print("\t" + topping)
-
-
-
-# def make_pizza(*toppings):
-#     """Вывод списка заказанных топпингов"""
-#     print(toppings)
-
-# make_pizza('pepperoni')
-# make_pizza('mushrooms', 'green peppers', 'exra cheese')
-
-
-
-
-def make_pizza(*toppings):
-    """Выводит описание пиццы."""
-    print("\nMaking a pizza with the following toppings:")
-    for topping in toppings:
-        print(f"- {topping}")
-
-make_pizza('pepperoni')
-make_pizza('mushrooms', 'green peppers', 'exra cheese')
-
-=======
-
-# for topping in pizza['toppings']:
-#     print("\t" + topping)
-
+"""Файл - модуль с функцией. Импортируемый pizza.py"""
 
 def make_pizza(size, *toppings):
     """Выводит описание пиццы."""
@@ -45,7 +6,6 @@ def make_pizza(size, *toppings):
     for topping in toppings:
         print(f"- {topping}")
 
-make_pizza(16, 'pepperone')
-make_pizza(12, 'mushrooms', 'green ppers', 'extra cheese')
->>>>>>> b8e94e6acbc399438a33bd6a2125de7e44e1f4bf
+
+
 

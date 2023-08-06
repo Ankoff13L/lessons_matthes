@@ -47,14 +47,23 @@
 
 
 
-def build_profile(gender, height, **user_info):
-    user_info['gender_pat'] = gender
-    user_info['height_hair'] = height
-    return user_info
+# def build_profile(gender, height, **user_info):
+#     user_info['gender_pat'] = gender
+#     user_info['height_hair'] = height
+#     return user_info
 
-conclusion = build_profile('bitch', 'bald', analyzes='spoiled', voice='coughs')
-print(conclusion)
+# conclusion = build_profile('bitch', 'bald', analyzes='spoiled', voice='coughs')
+# print(conclusion)
+
+
+def make_car(brand, model, **detals_car):
+    detals_car['brand_car'] = brand
+    detals_car['model_car'] = model
+    return detals_car
 
 
 
+car = make_car('subaru', 'outback', color='blue', tow_packarge=True)
+# car = make_car('subaru', 'outback', color='blue', tow_packarge='rew')
+print(car)
 
