@@ -1,4 +1,6 @@
 
+import print_fun
+
 
 # """Программа без использования функций"""
 
@@ -20,7 +22,7 @@
 
 
 
-"""Программа c 2-мя функциями"""
+# """Программа c 2-мя функциями"""
 
 # def print_models(unprinted_designs, compled_models):
 #     """Имитирует печать моделей, пока список не станет пустым.
@@ -48,9 +50,9 @@
 #     for short_messag in short_messages:
 #         print(short_messag)
 
-# short_messages = ['hello', 'today', 'black', 'country']
+print_fun.short_messages = ['hello', 'today', 'black', 'country']
+print_fun.show_messages(short_messages)
 
-# show_messages(short_messages)
 
 
 # def send_messages(short_messages):
@@ -61,8 +63,8 @@
 
 
 
-# short_messages = ['hello', 'today', 'black', 'country']
-# sent_messages = []
+# send_messages.short_messages = ['hello', 'today', 'black', 'country']
+# send_messages.sent_messages = []
 
 # send_messages(short_messages)
 
@@ -89,15 +91,15 @@
 
 
 
-def send_messages(short_messages):
-    while short_messages:
-        current_messag = short_messages
-        # current_messag = short_messages.pop()
-        # print(current_messag)
-        # sent_messages.append(current_messag)
-        print(current_messag )
+# def send_messages(short_messages):
+#     while short_messages:
+#         current_messag = short_messages
+#         # current_messag = short_messages.pop()
+#         # print(current_messag)
+#         # sent_messages.append(current_messag)
+#         print(current_messag)
 
 
-short_messages = ['hello', 'today', 'black', 'country']
-send_messages(short_messages)
+# short_messages = ['hello', 'today', 'black', 'country']
+# send_messages(short_messages)
 
