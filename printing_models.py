@@ -1,6 +1,5 @@
 
-import print_fun
-
+import printing_functions
 
 # """Программа без использования функций"""
 
@@ -38,11 +37,11 @@ import print_fun
 #     for compled_model in compled_models:
 #         print(compled_model)
 
-# unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
-# compled_models = []
+printing_functions.unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
+printing_functions.compled_models = []
 
-# print_models(unprinted_designs, compled_models)
-# show_completed_models(compled_models)
+printing_functions.print_models(printing_functions.unprinted_designs, printing_functions.compled_models)
+printing_functions.show_completed_models(printing_functions.compled_models)
 
 
 
@@ -50,8 +49,8 @@ import print_fun
 #     for short_messag in short_messages:
 #         print(short_messag)
 
-print_fun.short_messages = ['hello', 'today', 'black', 'country']
-print_fun.show_messages(short_messages)
+# print_fun.short_messages = ['hello', 'today', 'black', 'country']
+# print_fun.show_messages(short_messages)
 
 
 
