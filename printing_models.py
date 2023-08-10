@@ -40,7 +40,8 @@ import printing_functions
 printing_functions.unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
 printing_functions.compled_models = []
 
-printing_functions.print_models(printing_functions.unprinted_designs, printing_functions.compled_models)
+printing_functions.print_models(printing_functions.unprinted_designs,
+                                printing_functions.compled_models)
 printing_functions.show_completed_models(printing_functions.compled_models)
 
 
