@@ -2,13 +2,13 @@
 class Dog():
     """Простая модель собаки"""
 
-    def __init__(self, name, age):
-        """"Инициализирует атрибуты name и age."""
-        self.name = name
-        self.age = age
+    def __init__(self, name, age):  # метод
+        """Инициализирует атрибуты name и age."""
+        self.name = name     # это переменная (атрибут) экземпляра
+        self.age = age       # это переменная (атрибут) экземпляра
 
     def sit(self):
-        """"Собака садится по команде."""
+        """Собака садится по команде."""
         print(f"{self.name} is now sitting.")
 
     def roll_over(self):
@@ -29,6 +29,9 @@ your_dog = Dog('lucy', 3)
 print(f"\nMy dog's name is {your_dog.name}")
 print(f"My dog is {your_dog.age} yers old.")
 your_dog.sit()
+
+
+
 
 
 
