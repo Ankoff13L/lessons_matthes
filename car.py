@@ -1,4 +1,4 @@
-"""Классы для представления машин с бензиновым и электродвигателем."""
+"""Классы для представления машин с бензиновым и электродвигателем"""
 
 class Car():
     """Простая модель автомобиля."""
@@ -16,8 +16,8 @@ class Car():
         return long_name.title()
 
     def read_odometer(self):
-       """Выводит пробег машины в милях."""
-       print(f"This car has {self.odometer_reading} miles on it.")
+        """Выводит пробег машины в милях."""
+        print(f"This car has {self.odometer_reading} miles on it.")
 
     def update_odometer(self, mileage):
         """
@@ -35,18 +35,15 @@ class Car():
 
 
 class Battery():
-        """Простая модель аккумулятора автомобиля."""
-
+    """Простая модель аккумулятора автомобиля."""
 
     def __init__(self, battery_size=75):
         """Инициализирует атрибуты аккумулятора."""
         self.battery_size = battery_size
 
-
     def describe_battery(self):
         """Выводит информацию о мощности аккумулятора."""
         print(f"This car has a {self.battery_size}-kWh battery.")
-
 
     def get_range(self):
         """Выводит приблизительный запас ходя для аккумулятора."""
@@ -56,6 +53,8 @@ class Battery():
             range = 315
 
         print(f"This car can go about {range} milles on a full charge.")
+
+
 
 
 class ElectricCar(Car):
@@ -68,13 +67,6 @@ class ElectricCar(Car):
         """Инициализирует атрибуты класса-родителя."""
         super().__init__(make, model, year)
         self.battery = Battery()
-
-
-
-
-
-
-
 
 
 
