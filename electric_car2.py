@@ -32,7 +32,7 @@ class Car():
 
 
     def increment_odometer(self, miles):
-        """Увеличивает показания обометра с заданным приращением."""
+        """Увеличивает показания одометра с заданным приращением."""
         self.odometer_reading += miles
 
 
@@ -51,11 +51,7 @@ class Battery():
 
 
     def get_range(self):
-<<<<<<< HEAD
         """Выводит приблизительный запас ходя для аккумулятора."""
-=======
-        """Выводит приблизительный запас хода для аккумулятора."""
->>>>>>> 53f4509 (update)
         if self.battery_size == 75:
             range = 260
         elif self.battery_size == 100:
@@ -82,23 +78,4 @@ my_tesla = ElectricCar('tesla', 'model s', 2019)
 print(my_tesla.get_descriptive_name())
 my_tesla.battery.describe_battery()
 my_tesla.battery.get_range()
-<<<<<<< HEAD
-
-
-
-
-=======
->>>>>>> 53f4509 (update)
-
-
-
-
-
-
-
-
-
-
-
-
 
