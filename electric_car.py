@@ -45,6 +45,14 @@ class Battery():
         self.battery_size = battery_size
 
 
+    def upgrade_battery(self):
+        """
+        Проверяет размер аккумулятора и устанавливает мощность равной 100,
+        если он имеет другое значение.
+        """
+        if self.battery_size < 100:
+            self.battery_size = 100
+
     def describe_battery(self):
         """Выводит информацию о мощности аккумулятора."""
         print(f"This car has a {self.battery_size}-kWh battery.")
@@ -58,6 +66,7 @@ class Battery():
             range = 315
 
         print(f"This car can go about {range} milles on a full charge.")
+
 
 
 
@@ -75,7 +84,12 @@ class ElectricCar(Car):
 
 my_tesla = ElectricCar('tesla', 'model s', 2019)
 
-print(my_tesla.get_descriptive_name())
-my_tesla.battery.describe_battery()
+# print(my_tesla.get_descriptive_name())
+# my_tesla.battery.describe_battery()
+# my_tesla.battery.get_range()
 my_tesla.battery.get_range()
+my_tesla.battery.upgrade_battery()
+my_tesla.battery.get_range()
+
+
 
