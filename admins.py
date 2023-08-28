@@ -190,19 +190,19 @@ class User():
 
 
 
-class Privileges():
-    def __init__(self):
-        self.privileges = [
-            'разрешено добавлять сообщения',
-            'разрешено удалять пользователей',
-            'разрешено банить пользователей',
-        ]
+# class Privileges():
+#     def __init__(self):
+#         self.privileges = [
+#             'разрешено добавлять сообщения',
+#             'разрешено удалять пользователей',
+#             'разрешено банить пользователей',
+#         ]
 
 
-    def show_privileges(self):
-        """Выводит набор привелегий админа."""
-        for privileg in self.privileges:
-            print(privileg)
+#     def show_privileges(self):
+#         """Выводит набор привелегий админа."""
+#         for privileg in self.privileges:
+#             print(privileg)
 
 
 # admin_privileges = Privileges()
@@ -217,8 +217,8 @@ class Admin(User):
                                         # класса Admin
 
 
-# my_admin = Admin('anwei', 'smit', 31)
-# my_admin.privileges.show_privileges()
+my_admin = Admin('anwei', 'smit', 31)
+my_admin.privileges.show_privileges()
 
 
 

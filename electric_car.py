@@ -1,8 +1,9 @@
 """Набор класов для представления электромобимлей."""
 
+from car import Car
+
 class Battery():
     """Простая модель аккумулятора автомобиля."""
-
 
     def __init__(self, battery_size=75):
         """Инициализирует атрибуты аккумулятора."""
@@ -21,7 +22,6 @@ class Battery():
         """Выводит информацию о мощности аккумулятора."""
         print(f"This car has a {self.battery_size}-kWh battery.")
 
-
     def get_range(self):
         """Выводит приблизительный запас ходя для аккумулятора."""
         if self.battery_size == 75:
@@ -30,8 +30,6 @@ class Battery():
             range = 315
 
         print(f"This car can go about {range} milles on a full charge.")
-
-
 
 
 class ElectricCar(Car):

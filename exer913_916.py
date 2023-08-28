@@ -7,6 +7,8 @@
 # first_up = choice(players)
 # print(first_up)
 
+
+
 # from random import randint
 
 # class Die():
@@ -20,15 +22,19 @@
 #         result = randint(1, self.sides)
 #         print(result)
 
-# side_6 = Die()
+# side_6 = Die()     # 6-ти гранный кубик
 # side_6.roll_die()
 
-# side_10 = Die(10)
+# side_10 = Die(10)  # 10-ти гранный кубик
 # side_10.roll_die()
 
 
-# side_20 = Die(20)
+# side_20 = Die(20)   # 20-ти гранный кубик
 # side_20.roll_die()
+
+
+
+
 
 # from random import choice
 
@@ -46,12 +52,11 @@
 
 
 
-# from random import choice
+# from random import choice """Неправильный код, оставил для примера"""
 
 
 # def run_select():
 #     win_part = ['c','c','c']
-#     # comb_part = []
 #     if win_part != comb_part:
 #         while my_ticket:
 #             comb_part.append(choice(my_ticket))
@@ -67,11 +72,10 @@
 # comb_part = []
 # my_ticket = ['a','b','c']
 
-
 # comb = run_select()
 # print(comb)
 
-
+"""А это правильный код, предыдущей идеи, после того как, ознакомился с документацией модуля и применил к=3"""
 
 # from random import choices
 
@@ -80,6 +84,8 @@
 # com_par = choices(my_ticket, k=3)
 
 # print(com_par)
+
+
 
 
 from random import choices
@@ -102,4 +108,8 @@ while True:
 
 print(com_par)
 print(f"To get a winning combination, it took {counter} cycles!")
+
+
+
+
 
