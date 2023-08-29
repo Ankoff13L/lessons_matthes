@@ -51,6 +51,23 @@
 # run_select()
 
 
+# """
+# Измененный вариант предудущей программы. Вместо функции choice()
+# применена функция choices(). Код стал короче. Применение параметра k=4 сокращает
+# код на 3 строчки
+# """
+# from random import choices
+
+# series = [13,'r', 4, 'd', 7, 'a', 9, 'c', 8, 23, 5, 10, 2, 1]
+
+# def run_select():
+#     final_nunb = choices(series, k=4)
+#     print(f"Won tickets containing combinations: {final_nunb}!")
+
+
+# run_select()
+
+
 
 # from random import choice """Неправильный код, оставил для примера"""
 
@@ -75,7 +92,7 @@
 # comb = run_select()
 # print(comb)
 
-"""А это правильный код, предыдущей идеи, после того как, ознакомился с документацией модуля и применил к=3"""
+# """А это правильный код, предыдущей идеи, после того как, ознакомился с док. модуля и применил к=3"""
 
 # from random import choices
 
